@@ -8,7 +8,6 @@
     "isolatedModules": true,
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "noUncheckedIndexedAccess": true,
-    "outDir": "/dist"
+    "noUncheckedIndexedAccess": true
   }
 }

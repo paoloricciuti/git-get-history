@@ -5,12 +5,20 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc index.js --allowJs --emitDeclarationOnly --declaration --sourceMap",
+    "publish": "pnpm run build && changeset publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@types/node": "^20.5.7"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
   }
 }
