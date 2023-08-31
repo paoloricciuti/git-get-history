@@ -5,10 +5,10 @@
 		"getHistory"
 	],
 	"sources": [
-		"index.js"
+		"index.d.ts"
 	],
 	"sourcesContent": [
 		null
 	],
-	"mappings": ";iBAKsBA,UAAUA"
+	"mappings": ";iBAGgBA,UAAUA"
 }
