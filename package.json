@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "types": "./index.d.ts",
   "scripts": {
-    "build": "tsc index.js --allowJs --emitDeclarationOnly --declaration --sourceMap",
+    "build": "dts-buddy",
+    "changeset": "changeset",
     "publish": "pnpm run build && changeset publish"
   },
   "keywords": [],
@@ -13,7 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
-    "@types/node": "^20.5.7"
+    "@types/node": "^20.5.7",
+    "dts-buddy": "^0.2.4"
   },
   "exports": {
     ".": {

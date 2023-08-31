@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "index.d.ts",
+	"names": [
+		"getHistory"
+	],
+	"sources": [
+		"index.js"
+	],
+	"sourcesContent": [
+		null
+	],
+	"mappings": ";iBAKsBA,UAAUA"
+}
